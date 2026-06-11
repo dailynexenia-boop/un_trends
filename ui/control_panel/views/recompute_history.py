@@ -186,6 +186,11 @@ def render(
             stamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
             remote = f"https://x-access-token:{token}@github.com/dailynexenia-boop/un_trends.git"
 
+            cwd = str(project_root)
+            # Set git identity (required on Streamlit Cloud)
+            subprocess.run(["git", "config", "user.email", "streamlit-cloud@un-trends"], cwd=cwd, capture_output=True)
+            subprocess.run(["git", "config", "user.name", "Streamlit Cloud"], cwd=cwd, capture_output=True)
+
             cmds = [
                 ["git", "add", "canonical/canonical.jsonl", "config/"],
                 ["git", "commit", "--allow-empty", "-m", f"Sync canonical — {stamp}"],
@@ -195,9 +200,12 @@ def render(
             logs = []
             ok = True
             for cmd in cmds:
-                p = subprocess.run(cmd, cwd=str(project_root), capture_output=True, text=True)
-                logs.append((cmd[1], p.returncode, (p.stdout or "") + (p.stderr or "")))
-                if p.returncode != 0 and cmd[1] != "commit":
+                p = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True)
+                out = ((p.stdout or "") + (p.stderr or "")).strip()
+                logs.append((cmd[1], p.returncode, out))
+                if p.returncode != 0:
+                    if cmd[1] == "commit" and "nothing to commit" in out:
+                        continue
                     ok = False
                     break
 

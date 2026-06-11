@@ -79,15 +79,25 @@ def push_to_github(entry_id: str) -> tuple[bool, str]:
         return False, ""
 
     remote = f"https://x-access-token:{token}@github.com/dailynexenia-boop/un_trends.git"
+    cwd = str(PROJECT_ROOT)
+
+    # Set git identity (required on Streamlit Cloud where global config is absent)
+    subprocess.run(["git", "config", "user.email", "streamlit-cloud@un-trends"], cwd=cwd, capture_output=True)
+    subprocess.run(["git", "config", "user.name", "Streamlit Cloud"], cwd=cwd, capture_output=True)
+
     cmds = [
         ["git", "add", "canonical/canonical.jsonl", "raw/"],
         ["git", "commit", "--allow-empty", "-m", f"Entry {entry_id}"],
         ["git", "push", remote, "main"],
     ]
     for cmd in cmds:
-        p = subprocess.run(cmd, cwd=str(PROJECT_ROOT), capture_output=True, text=True)
-        if p.returncode != 0 and cmd[1] != "commit":
-            return False, ((p.stdout or "") + (p.stderr or ""))[:200]
+        p = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True)
+        out = ((p.stdout or "") + (p.stderr or "")).strip()
+        if p.returncode != 0:
+            # "nothing to commit" is not a real error — keep going
+            if cmd[1] == "commit" and "nothing to commit" in out:
+                continue
+            return False, f"{cmd[1]}: {out[:300]}"
     return True, ""
 
 # ==================================================
