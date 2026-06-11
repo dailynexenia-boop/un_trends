@@ -147,6 +147,51 @@ def render(
                 height=260,
             )
 
+    # -----------------------------------------------------
+    # SYNC TO GITHUB (push canonical + config)
+    # -----------------------------------------------------
+    st.divider()
+    st.markdown("### Sync to cloud")
+    st.caption("Pushes canonical data and config to GitHub so the deployed app sees the latest data.")
+
+    token = None
+    try:
+        token = st.secrets.get("GITHUB_TOKEN")
+    except Exception:
+        pass
+
+    if not token:
+        st.warning("GITHUB_TOKEN not found in secrets — sync unavailable.")
+    else:
+        if st.button("☁️ Push to GitHub"):
+            import subprocess
+            from datetime import datetime
+
+            stamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+            remote = f"https://x-access-token:{token}@github.com/dailynexenia-boop/un_trends.git"
+
+            cmds = [
+                ["git", "add", "canonical/canonical.jsonl", "config/"],
+                ["git", "commit", "--allow-empty", "-m", f"Sync canonical — {stamp}"],
+                ["git", "push", remote, "main"],
+            ]
+
+            logs = []
+            ok = True
+            for cmd in cmds:
+                p = subprocess.run(cmd, cwd=str(project_root), capture_output=True, text=True)
+                logs.append((cmd[1], p.returncode, (p.stdout or "") + (p.stderr or "")))
+                if p.returncode != 0 and cmd[1] != "commit":
+                    ok = False
+                    break
+
+            for name, code, out in logs:
+                if out.strip():
+                    st.caption(f"`{name}` → {'✅' if code == 0 else '❌'} {out.strip()[:200]}")
+
+            if ok:
+                st.success("Pushed. Streamlit Cloud will update in ~1 minute.")
+
     # =====================================================
     # HISTORY
     # =====================================================
