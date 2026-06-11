@@ -99,6 +99,24 @@ st.caption(
     "Ingestion append-only · RAW sauvegardé avant analyse."
 )
 
+# Pull from GitHub (local only — no token = cloud mode)
+_has_token = False
+try:
+    _has_token = bool(st.secrets.get("GITHUB_TOKEN"))
+except Exception:
+    pass
+
+if not _has_token:
+    import subprocess as _sp
+    if st.button("⬇️ Pull from GitHub (sync session entries)"):
+        p = _sp.run(["git", "pull"], cwd=str(PROJECT_ROOT), capture_output=True, text=True)
+        if p.returncode == 0:
+            st.success("Up to date.")
+            if p.stdout.strip():
+                st.caption(p.stdout.strip()[:300])
+        else:
+            st.error((p.stdout + p.stderr)[:300])
+
 tab_manual, tab_csv = st.tabs(["Manual entry", "CSV upload"])
 
 # ==================================================
