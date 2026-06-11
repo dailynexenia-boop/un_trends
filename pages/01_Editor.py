@@ -61,6 +61,35 @@ def append_raw_csv(path: Path, row: dict):
             writer.writeheader()
         writer.writerow(row)
 
+
+def push_to_github(entry_id: str) -> tuple[bool, str]:
+    """
+    Returns (pushed, message).
+    pushed=False + message="" means no token (local mode).
+    pushed=False + message=str means error.
+    pushed=True means success.
+    """
+    import subprocess
+    token = None
+    try:
+        token = st.secrets.get("GITHUB_TOKEN")
+    except Exception:
+        pass
+    if not token:
+        return False, ""
+
+    remote = f"https://x-access-token:{token}@github.com/dailynexenia-boop/un_trends.git"
+    cmds = [
+        ["git", "add", "canonical/canonical.jsonl", "raw/"],
+        ["git", "commit", "--allow-empty", "-m", f"Entry {entry_id}"],
+        ["git", "push", remote, "main"],
+    ]
+    for cmd in cmds:
+        p = subprocess.run(cmd, cwd=str(PROJECT_ROOT), capture_output=True, text=True)
+        if p.returncode != 0 and cmd[1] != "commit":
+            return False, ((p.stdout or "") + (p.stderr or ""))[:200]
+    return True, ""
+
 # ==================================================
 # UI
 # ==================================================
@@ -171,6 +200,12 @@ with tab_manual:
                     st.caption(f"RAW snapshot saved → {raw_path.name}")
                     st.caption(f"Analytical pipeline applied to {n} entry(ies).")
                     st.caption(f"New entry_id: {entry['entry_id']}")
+
+                    pushed, err = push_to_github(entry["entry_id"])
+                    if pushed:
+                        st.caption("☁️ Synced to GitHub.")
+                    elif err:
+                        st.warning(f"GitHub sync failed: {err}")
 
                 except Exception as e:
                     st.error("Error while saving the entry.")
