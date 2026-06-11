@@ -1,0 +1,1464 @@
+{
+  "total_items": 154,
+  "items": [
+    {
+      "actor_raw": "Iran",
+      "type": "atomic",
+      "actors": [
+        "Iran"
+      ],
+      "affiliations": [],
+      "count": 9
+    },
+    {
+      "actor_raw": "Armenia",
+      "type": "atomic",
+      "actors": [
+        "Armenia"
+      ],
+      "affiliations": [],
+      "count": 8
+    },
+    {
+      "actor_raw": "Venezuela",
+      "type": "atomic",
+      "actors": [
+        "Venezuela"
+      ],
+      "affiliations": [],
+      "count": 8
+    },
+    {
+      "actor_raw": "Algeria",
+      "type": "atomic",
+      "actors": [
+        "Algeria"
+      ],
+      "affiliations": [],
+      "count": 7
+    },
+    {
+      "actor_raw": "Russia",
+      "type": "atomic",
+      "actors": [
+        "Russia"
+      ],
+      "affiliations": [],
+      "count": 7
+    },
+    {
+      "actor_raw": "China",
+      "type": "atomic",
+      "actors": [
+        "China"
+      ],
+      "affiliations": [],
+      "count": 7
+    },
+    {
+      "actor_raw": "Cuba",
+      "type": "atomic",
+      "actors": [
+        "Cuba"
+      ],
+      "affiliations": [],
+      "count": 7
+    },
+    {
+      "actor_raw": "Iraq",
+      "type": "atomic",
+      "actors": [
+        "Iraq"
+      ],
+      "affiliations": [],
+      "count": 6
+    },
+    {
+      "actor_raw": "Egypt",
+      "type": "atomic",
+      "actors": [
+        "Egypt"
+      ],
+      "affiliations": [],
+      "count": 6
+    },
+    {
+      "actor_raw": "Sudan",
+      "type": "atomic",
+      "actors": [
+        "Sudan"
+      ],
+      "affiliations": [],
+      "count": 6
+    },
+    {
+      "actor_raw": "Afghanistan",
+      "type": "atomic",
+      "actors": [
+        "Afghanistan"
+      ],
+      "affiliations": [],
+      "count": 5
+    },
+    {
+      "actor_raw": "Tunisia",
+      "type": "atomic",
+      "actors": [
+        "Tunisia"
+      ],
+      "affiliations": [],
+      "count": 5
+    },
+    {
+      "actor_raw": "Pakistan",
+      "type": "atomic",
+      "actors": [
+        "Pakistan"
+      ],
+      "affiliations": [],
+      "count": 5
+    },
+    {
+      "actor_raw": "Azerbaidjan",
+      "type": "atomic",
+      "actors": [
+        "Azerbaidjan"
+      ],
+      "affiliations": [],
+      "count": 4
+    },
+    {
+      "actor_raw": "Maldives",
+      "type": "atomic",
+      "actors": [
+        "Maldives"
+      ],
+      "affiliations": [],
+      "count": 4
+    },
+    {
+      "actor_raw": "Sierra Leone",
+      "type": "atomic",
+      "actors": [
+        "Sierra Leone"
+      ],
+      "affiliations": [],
+      "count": 4
+    },
+    {
+      "actor_raw": "Ghana",
+      "type": "atomic",
+      "actors": [
+        "Ghana"
+      ],
+      "affiliations": [],
+      "count": 4
+    },
+    {
+      "actor_raw": "Indonesia",
+      "type": "atomic",
+      "actors": [
+        "Indonesia"
+      ],
+      "affiliations": [],
+      "count": 4
+    },
+    {
+      "actor_raw": "Bolivia",
+      "type": "atomic",
+      "actors": [
+        "Bolivia"
+      ],
+      "affiliations": [],
+      "count": 4
+    },
+    {
+      "actor_raw": "Colombia",
+      "type": "atomic",
+      "actors": [
+        "Colombia"
+      ],
+      "affiliations": [],
+      "count": 4
+    },
+    {
+      "actor_raw": "Maleysia",
+      "type": "atomic",
+      "actors": [
+        "Maleysia"
+      ],
+      "affiliations": [],
+      "count": 4
+    },
+    {
+      "actor_raw": "Nepal",
+      "type": "atomic",
+      "actors": [
+        "Nepal"
+      ],
+      "affiliations": [],
+      "count": 3
+    },
+    {
+      "actor_raw": "Belarus",
+      "type": "atomic",
+      "actors": [
+        "Belarus"
+      ],
+      "affiliations": [],
+      "count": 3
+    },
+    {
+      "actor_raw": "India",
+      "type": "atomic",
+      "actors": [
+        "India"
+      ],
+      "affiliations": [],
+      "count": 3
+    },
+    {
+      "actor_raw": "Jordan",
+      "type": "atomic",
+      "actors": [
+        "Jordan"
+      ],
+      "affiliations": [],
+      "count": 3
+    },
+    {
+      "actor_raw": "Uganda",
+      "type": "atomic",
+      "actors": [
+        "Uganda"
+      ],
+      "affiliations": [],
+      "count": 3
+    },
+    {
+      "actor_raw": "Republique of Korea",
+      "type": "atomic",
+      "actors": [
+        "Republique of Korea"
+      ],
+      "affiliations": [],
+      "count": 3
+    },
+    {
+      "actor_raw": "Turkyie",
+      "type": "atomic",
+      "actors": [
+        "Turkyie"
+      ],
+      "affiliations": [],
+      "count": 3
+    },
+    {
+      "actor_raw": "Ethiopia",
+      "type": "atomic",
+      "actors": [
+        "Ethiopia"
+      ],
+      "affiliations": [],
+      "count": 3
+    },
+    {
+      "actor_raw": "Malawi",
+      "type": "atomic",
+      "actors": [
+        "Malawi"
+      ],
+      "affiliations": [],
+      "count": 3
+    },
+    {
+      "actor_raw": "Erythree",
+      "type": "atomic",
+      "actors": [
+        "Erythree"
+      ],
+      "affiliations": [],
+      "count": 3
+    },
+    {
+      "actor_raw": "EU",
+      "type": "atomic",
+      "actors": [
+        "EU"
+      ],
+      "affiliations": [],
+      "count": 3
+    },
+    {
+      "actor_raw": "Bengladesh",
+      "type": "atomic",
+      "actors": [
+        "Bengladesh"
+      ],
+      "affiliations": [],
+      "count": 3
+    },
+    {
+      "actor_raw": "Kirghiztan",
+      "type": "atomic",
+      "actors": [
+        "Kirghiztan"
+      ],
+      "affiliations": [],
+      "count": 3
+    },
+    {
+      "actor_raw": "Group of Friends, Venezuela",
+      "type": "composite",
+      "actors": [
+        "Venezuela"
+      ],
+      "affiliations": [
+        "Group of Friends"
+      ],
+      "count": 3
+    },
+    {
+      "actor_raw": "Brazil",
+      "type": "atomic",
+      "actors": [
+        "Brazil"
+      ],
+      "affiliations": [],
+      "count": 3
+    },
+    {
+      "actor_raw": "Libya",
+      "type": "atomic",
+      "actors": [
+        "Libya"
+      ],
+      "affiliations": [],
+      "count": 3
+    },
+    {
+      "actor_raw": "Panelist",
+      "type": "atomic",
+      "actors": [
+        "Panelist"
+      ],
+      "affiliations": [],
+      "count": 3
+    },
+    {
+      "actor_raw": "UAE",
+      "type": "atomic",
+      "actors": [
+        "UAE"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Cyprus",
+      "type": "atomic",
+      "actors": [
+        "Cyprus"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Lithuania",
+      "type": "atomic",
+      "actors": [
+        "Lithuania"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "NAM, Uganda",
+      "type": "composite",
+      "actors": [
+        "Uganda"
+      ],
+      "affiliations": [
+        "NAM"
+      ],
+      "count": 2
+    },
+    {
+      "actor_raw": "France",
+      "type": "atomic",
+      "actors": [
+        "France"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Georgia",
+      "type": "atomic",
+      "actors": [
+        "Georgia"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Japan",
+      "type": "atomic",
+      "actors": [
+        "Japan"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Qatar",
+      "type": "atomic",
+      "actors": [
+        "Qatar"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Belgium",
+      "type": "atomic",
+      "actors": [
+        "Belgium"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Norway",
+      "type": "atomic",
+      "actors": [
+        "Norway"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "UK",
+      "type": "atomic",
+      "actors": [
+        "UK"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Slovenia",
+      "type": "atomic",
+      "actors": [
+        "Slovenia"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "GANRHI",
+      "type": "atomic",
+      "actors": [
+        "GANRHI"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Vietnam",
+      "type": "atomic",
+      "actors": [
+        "Vietnam"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Uruguay",
+      "type": "atomic",
+      "actors": [
+        "Uruguay"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Kenya",
+      "type": "atomic",
+      "actors": [
+        "Kenya"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "South Africa",
+      "type": "atomic",
+      "actors": [
+        "South Africa"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Cameroun",
+      "type": "atomic",
+      "actors": [
+        "Cameroun"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Equador",
+      "type": "atomic",
+      "actors": [
+        "Equador"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Togo",
+      "type": "atomic",
+      "actors": [
+        "Togo"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Senegal",
+      "type": "atomic",
+      "actors": [
+        "Senegal"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Phillipines",
+      "type": "atomic",
+      "actors": [
+        "Phillipines"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "SR Unilateral Coercive Measure",
+      "type": "atomic",
+      "actors": [
+        "SR Unilateral Coercive Measure"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Dominican Republic",
+      "type": "atomic",
+      "actors": [
+        "Dominican Republic"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "State of Palestine",
+      "type": "atomic",
+      "actors": [
+        "State of Palestine"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "AFG, Ghana",
+      "type": "composite",
+      "actors": [
+        "AFG",
+        "Ghana"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Bahrein",
+      "type": "atomic",
+      "actors": [
+        "Bahrein"
+      ],
+      "affiliations": [],
+      "count": 2
+    },
+    {
+      "actor_raw": "Ukraine",
+      "type": "atomic",
+      "actors": [
+        "Ukraine"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Maleysia, NAM",
+      "type": "composite",
+      "actors": [
+        "Maleysia"
+      ],
+      "affiliations": [
+        "NAM"
+      ],
+      "count": 1
+    },
+    {
+      "actor_raw": "ONU Sida",
+      "type": "atomic",
+      "actors": [
+        "ONU Sida"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "APG, Bahrein",
+      "type": "composite",
+      "actors": [
+        "APG",
+        "Bahrein"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Nigeria",
+      "type": "atomic",
+      "actors": [
+        "Nigeria"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Serbia",
+      "type": "atomic",
+      "actors": [
+        "Serbia"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "PM Switzerland, PR Albania",
+      "type": "composite",
+      "actors": [
+        "PM Switzerland",
+        "PR Albania"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "NGO Trial Int., UNWG on Mercenaries",
+      "type": "composite",
+      "actors": [
+        "NGO Trial Int.",
+        "UNWG on Mercenaries"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Thailande",
+      "type": "atomic",
+      "actors": [
+        "Thailande"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "GRULAC, Venezuela",
+      "type": "composite",
+      "actors": [
+        "Venezuela"
+      ],
+      "affiliations": [
+        "GRULAC"
+      ],
+      "count": 1
+    },
+    {
+      "actor_raw": "LMDC, Venezuela",
+      "type": "composite",
+      "actors": [
+        "Venezuela"
+      ],
+      "affiliations": [
+        "LMDC"
+      ],
+      "count": 1
+    },
+    {
+      "actor_raw": "Suisse, Swiss",
+      "type": "composite",
+      "actors": [
+        "Suisse",
+        "Swiss"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Czech, EU",
+      "type": "composite",
+      "actors": [
+        "Czech"
+      ],
+      "affiliations": [
+        "EU"
+      ],
+      "count": 1
+    },
+    {
+      "actor_raw": "Pays-Bas",
+      "type": "atomic",
+      "actors": [
+        "Pays-Bas"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Allemagne",
+      "type": "atomic",
+      "actors": [
+        "Allemagne"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Sweden",
+      "type": "atomic",
+      "actors": [
+        "Sweden"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Finlande",
+      "type": "atomic",
+      "actors": [
+        "Finlande"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "EU, Ireland",
+      "type": "composite",
+      "actors": [
+        "Ireland"
+      ],
+      "affiliations": [
+        "EU"
+      ],
+      "count": 1
+    },
+    {
+      "actor_raw": "Austria, EU",
+      "type": "composite",
+      "actors": [
+        "Austria"
+      ],
+      "affiliations": [
+        "EU"
+      ],
+      "count": 1
+    },
+    {
+      "actor_raw": "Canada",
+      "type": "atomic",
+      "actors": [
+        "Canada"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Australia",
+      "type": "atomic",
+      "actors": [
+        "Australia"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "EU, Estonia",
+      "type": "composite",
+      "actors": [
+        "Estonia"
+      ],
+      "affiliations": [
+        "EU"
+      ],
+      "count": 1
+    },
+    {
+      "actor_raw": "Danemark, EU",
+      "type": "composite",
+      "actors": [
+        "Danemark"
+      ],
+      "affiliations": [
+        "EU"
+      ],
+      "count": 1
+    },
+    {
+      "actor_raw": "Central Africa",
+      "type": "atomic",
+      "actors": [
+        "Central Africa"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Michael Camilleri",
+      "type": "atomic",
+      "actors": [
+        "Michael Camilleri"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Clément Voule",
+      "type": "atomic",
+      "actors": [
+        "Clément Voule"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Thyagi Runawanpathrana",
+      "type": "atomic",
+      "actors": [
+        "Thyagi Runawanpathrana"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "SG",
+      "type": "atomic",
+      "actors": [
+        "SG"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Fiji, Ghana, Hungary, Ireland, Uruguay",
+      "type": "composite",
+      "actors": [
+        "Fiji",
+        "Ghana",
+        "Hungary",
+        "Ireland",
+        "Uruguay"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Australia, Canada, New Zeland",
+      "type": "composite",
+      "actors": [
+        "Australia",
+        "Canada",
+        "New Zeland"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Austria, Lishtenstein, Slovenia, Suisse",
+      "type": "composite",
+      "actors": [
+        "Austria",
+        "Lishtenstein",
+        "Slovenia",
+        "Suisse"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "NAM, Venezuela",
+      "type": "composite",
+      "actors": [
+        "Venezuela"
+      ],
+      "affiliations": [
+        "NAM"
+      ],
+      "count": 1
+    },
+    {
+      "actor_raw": "Belgium, Luxemburg, Netherland",
+      "type": "composite",
+      "actors": [
+        "Belgium",
+        "Luxemburg",
+        "Netherland"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Lishtenstein",
+      "type": "atomic",
+      "actors": [
+        "Lishtenstein"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Danemark",
+      "type": "atomic",
+      "actors": [
+        "Danemark"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Mauritania",
+      "type": "atomic",
+      "actors": [
+        "Mauritania"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Burkina Faso",
+      "type": "atomic",
+      "actors": [
+        "Burkina Faso"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Czech",
+      "type": "atomic",
+      "actors": [
+        "Czech"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Palestine",
+      "type": "atomic",
+      "actors": [
+        "Palestine"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "EU, Poland",
+      "type": "composite",
+      "actors": [
+        "Poland"
+      ],
+      "affiliations": [
+        "EU"
+      ],
+      "count": 1
+    },
+    {
+      "actor_raw": "EU, Germany",
+      "type": "composite",
+      "actors": [
+        "Germany"
+      ],
+      "affiliations": [
+        "EU"
+      ],
+      "count": 1
+    },
+    {
+      "actor_raw": "Armenia, Dominica",
+      "type": "composite",
+      "actors": [
+        "Armenia",
+        "Dominica"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "President of HRC",
+      "type": "atomic",
+      "actors": [
+        "President of HRC"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Maleysia, Timo-Leste",
+      "type": "composite",
+      "actors": [
+        "Maleysia",
+        "Timo-Leste"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Armenia, Fidji, Norway, Pakistan",
+      "type": "composite",
+      "actors": [
+        "Armenia",
+        "Fidji",
+        "Norway",
+        "Pakistan"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Costa Rica",
+      "type": "atomic",
+      "actors": [
+        "Costa Rica"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Gambia",
+      "type": "atomic",
+      "actors": [
+        "Gambia"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Yemen",
+      "type": "atomic",
+      "actors": [
+        "Yemen"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Algeria, Arab Group",
+      "type": "composite",
+      "actors": [
+        "Algeria"
+      ],
+      "affiliations": [
+        "Arab Group"
+      ],
+      "count": 1
+    },
+    {
+      "actor_raw": "Colombia, Hague Group",
+      "type": "composite",
+      "actors": [
+        "Colombia"
+      ],
+      "affiliations": [
+        "Hague Group"
+      ],
+      "count": 1
+    },
+    {
+      "actor_raw": "Mexico",
+      "type": "atomic",
+      "actors": [
+        "Mexico"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Chili",
+      "type": "atomic",
+      "actors": [
+        "Chili"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Spain",
+      "type": "atomic",
+      "actors": [
+        "Spain"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Gambia",
+      "type": "composite",
+      "actors": [
+        "AFG",
+        "Gambia"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Morocco",
+      "type": "atomic",
+      "actors": [
+        "Morocco"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Island",
+      "type": "atomic",
+      "actors": [
+        "Island"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Yemen",
+      "type": "composite",
+      "actors": [
+        "AFG",
+        "Yemen"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Saudi Arabia",
+      "type": "atomic",
+      "actors": [
+        "Saudi Arabia"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Sovereign Order of Malta",
+      "type": "atomic",
+      "actors": [
+        "Sovereign Order of Malta"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Luxemburg",
+      "type": "atomic",
+      "actors": [
+        "Luxemburg"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Ireland",
+      "type": "atomic",
+      "actors": [
+        "Ireland"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Perou",
+      "type": "atomic",
+      "actors": [
+        "Perou"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Brunei",
+      "type": "atomic",
+      "actors": [
+        "Brunei"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Djibouti",
+      "type": "atomic",
+      "actors": [
+        "Djibouti"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Oman",
+      "type": "atomic",
+      "actors": [
+        "Oman"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Senegal",
+      "type": "composite",
+      "actors": [
+        "AFG",
+        "Senegal"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Lebanon",
+      "type": "atomic",
+      "actors": [
+        "Lebanon"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Colombia, Hague Group, Honduras",
+      "type": "composite",
+      "actors": [
+        "Colombia",
+        "Honduras"
+      ],
+      "affiliations": [
+        "Hague Group"
+      ],
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Mauritania",
+      "type": "composite",
+      "actors": [
+        "AFG",
+        "Mauritania"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Nigeria",
+      "type": "composite",
+      "actors": [
+        "AFG",
+        "Nigeria"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Like Minded Group, Sudan",
+      "type": "composite",
+      "actors": [
+        "Sudan"
+      ],
+      "affiliations": [
+        "Like Minded Group"
+      ],
+      "count": 1
+    },
+    {
+      "actor_raw": "Suede",
+      "type": "atomic",
+      "actors": [
+        "Suede"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "EU, Lithuania",
+      "type": "composite",
+      "actors": [
+        "Lithuania"
+      ],
+      "affiliations": [
+        "EU"
+      ],
+      "count": 1
+    },
+    {
+      "actor_raw": "Jamaica",
+      "type": "atomic",
+      "actors": [
+        "Jamaica"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Kuweit",
+      "type": "atomic",
+      "actors": [
+        "Kuweit"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Gambia, Ghana",
+      "type": "composite",
+      "actors": [
+        "AFG",
+        "Gambia",
+        "Ghana"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "UNICEF",
+      "type": "atomic",
+      "actors": [
+        "UNICEF"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Paraguay",
+      "type": "atomic",
+      "actors": [
+        "Paraguay"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Ethiopia",
+      "type": "composite",
+      "actors": [
+        "AFG",
+        "Ethiopia"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Alena Douhan SR on UCMs",
+      "type": "atomic",
+      "actors": [
+        "Alena Douhan SR on UCMs"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Iran, Nassi Sergi Secretary of The High Council of HR Iran",
+      "type": "composite",
+      "actors": [
+        "Iran",
+        "Nassi Sergi Secretary of The High Council of HR Iran"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Zimbabwe",
+      "type": "atomic",
+      "actors": [
+        "Zimbabwe"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Mozambique",
+      "type": "atomic",
+      "actors": [
+        "Mozambique"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Malawi",
+      "type": "composite",
+      "actors": [
+        "AFG",
+        "Malawi"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, South Africa",
+      "type": "composite",
+      "actors": [
+        "AFG",
+        "South Africa"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Cambodgia",
+      "type": "atomic",
+      "actors": [
+        "Cambodgia"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Tchad",
+      "type": "composite",
+      "actors": [
+        "AFG",
+        "Tchad"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "Irak",
+      "type": "atomic",
+      "actors": [
+        "Irak"
+      ],
+      "affiliations": [],
+      "count": 1
+    },
+    {
+      "actor_raw": "EU, Lithuania, Lublin Triangle",
+      "type": "composite",
+      "actors": [
+        "Lithuania",
+        "Lublin Triangle"
+      ],
+      "affiliations": [
+        "EU"
+      ],
+      "count": 1
+    }
+  ]
+}

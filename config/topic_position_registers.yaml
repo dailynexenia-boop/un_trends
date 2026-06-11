@@ -1,0 +1,356 @@
+PALESTINE:
+  legal_qualification:
+    - "genocide"
+    - "genocidal acts"
+    - "crimes against humanity"
+    - "war crimes"
+
+  political_condemnation:
+    - "condemn"
+    - "strongly condemn"
+    - "condemn in the strongest terms"
+    - "denounce"
+    - "unjustifiable acts"
+
+  occupation_illegality:
+    - "illegal occupation"
+    - "occupying power"
+
+  self_determination:
+    - "right to self-determination"
+    - "inalienable rights"
+
+  two_state_solution:
+    - "two-state solution"
+    - "side by side"
+
+  independent_statehood:
+    - "independent Palestinian state"
+    - "sovereign state of palestine"
+
+  east_jerusalem_capital:
+    - "east jerusalem"
+    - "al-quds"
+    - "jerusalem as capital"
+
+  ceasefire_calls:
+    - "ceasefire"
+    - "immediate ceasefire"
+    - "permanent ceasefire"
+
+  humanitarian_access:
+    - "humanitarian access"
+    - "humanitarian aid"
+
+  refugee_protection:
+    - "forced displacement"
+    - "right of return"
+    - "refugees"
+
+  business_in_occupation:
+    - "database on companies"
+    - "business involvement in settlements"
+    - "companies operating in occupied territory"
+
+  international_accountability:
+    - "international justice"
+    - "perpetrators held accountable"
+    - "accountability mechanisms"
+
+  hostages_and_hamas:
+    - "hamas must release hostages"
+    - "condemn hamas attacks"
+
+  balanced_position:
+    - "respect international humanitarian law"
+    - "protect civilians on all sides"
+
+
+UKRAINE:
+  territorial_integrity:
+    - "territorial integrity"
+    - "internationally recognized borders"
+
+  russian_aggression:
+    - "russian aggression"
+    - "war against ukraine"
+
+  legal_qualification:
+    - "war crimes"
+    - "violations of international law"
+
+  political_condemnation:
+    - "condemn russia"
+    - "strongly condemn russian actions"
+
+  calls_for_compliance:
+    - "russia must comply"
+    - "respect international law"
+
+  peace_negotiations:
+    - "peace talks"
+    - "negotiations"
+
+  ukrainian_children:
+    - "ukrainian children"
+    - "return of children"
+
+  political_prisoners:
+    - "arbitrary detention"
+    - "political prisoners"
+
+  support_to_civil_society:
+    - "support ukrainian civil society"
+
+  balanced_position:
+    - "call for dialogue"
+    - "concern about the situation"
+
+
+HONG_KONG_CHINA:
+  autonomy_framework:
+    - "one country two systems"
+    - "high degree of autonomy"
+
+  national_security_law_defense:
+    - "national security law"
+    - "in accordance with the law"
+
+  freedom_of_expression_concern:
+    - "freedom of speech"
+    - "freedom of expression"
+
+  arbitrary_detention_concern:
+    - "arbitrary detention"
+    - "release immediately"
+
+  rejection_of_external_criticism:
+    - "false claims"
+    - "politicized narrative"
+
+  sovereignty_position:
+    - "internal affairs"
+    - "non-interference"
+
+
+COUNTRY_SPECIFIC_MANDATES:
+  support_for_mandates:
+    - "country specific mandate"
+    - "fact finding mission"
+
+  conditional_support:
+    - "need for objectivity"
+    - "respect national context"
+
+  opposition_to_mandates:
+    - "reject country specific mandate"
+    - "name and shame"
+
+  consent_of_state:
+    - "lack of consent"
+    - "without consent of the state"
+
+
+UN_SYSTEM:
+  strong_support:
+    - "welcome the work of the council"
+    - "valuable mechanism"
+    - "cornerstone of the hrc"
+    - "most significant innovation"
+
+  institutional_support:
+    - "support to ohchr"
+    - "support to special procedures"
+    - "support to upr"
+
+  cooperation_orientation:
+    - "constructive cooperation"
+    - "international cooperation"
+    - "dialogue"
+
+  objectivity_and_fairness:
+    - "objectivity"
+    - "impartiality"
+    - "non-selectivity"
+
+  criticism_selectivity:
+    - "double standards"
+    - "selective approach"
+
+  politicization_claim:
+    - "politicization"
+    - "name and shame"
+
+  misuse_of_mechanisms:
+    - "misuse of council"
+    - "abuse of mechanisms"
+
+  efficiency_concerns:
+    - "lack of efficiency"
+    - "mandate proliferation"
+
+  financial_constraints:
+    - "liquidity crisis"
+    - "budget constraints"
+    - "limited resources"
+    - "funding constraints"
+
+UPR:
+  strong_support:
+    - "upr cornerstone"
+    - "unique mechanism"
+    - "support to upr"
+
+  cooperative_engagement:
+    - "constructive dialogue"
+    - "inclusive process"
+    - "universality"
+    - "equal treatment"
+    - "accepted recommendations"
+    - "implementation of recommendations"
+    - "voluntary funding"
+
+SOVEREIGNTY_AND_NON_INTERVENTION:
+  sovereignty_primacy:
+    - "state sovereignty"
+    - "non-interference"
+
+  national_security_justification:
+    - "national security"
+    - "public order"
+
+  rejection_of_external_pressure:
+    - "foreign interference"
+    - "internal affairs"
+
+
+UNILATERAL_COERCIVE_MEASURES:
+  legal_characterization:
+    - "illegal sanctions"
+    - "contrary to un charter"
+
+  political_condemnation:
+    - "condemn unilateral measures"
+    - "reject unilateral coercive measures"
+
+  humanitarian_impact:
+    - "impact on vulnerable groups"
+    - "humanitarian consequences"
+
+  right_to_development_impact:
+    - "undermine right to development"
+    - "impact on sdgs"
+
+  extraterritorial_application:
+    - "secondary sanctions"
+    - "extraterritorial application"
+
+  calls_for_lifting:
+    - "lift sanctions"
+    - "end unilateral measures"
+
+  defense_of_sanctions:
+    - "last resort"
+    - "case by case"
+    - "targeted sanctions"
+
+
+REPRISALS_AND_CIVIL_SOCIETY:
+  condemnation_of_reprisals:
+    - "condemn reprisals"
+    - "acts of intimidation"
+
+  protection_of_hrds:
+    - "human rights defenders"
+    - "civil society protection"
+
+  transnational_repression:
+    - "transnational repression"
+    - "cross-border intimidation"
+
+  denial_or_justification:
+    - "lawful measures"
+    - "national security justification"
+
+
+RIGHT_TO_DEVELOPMENT:
+  promotion_of_rtd:
+    - "right to development"
+    - "development agenda"
+
+  legally_binding_instrument:
+    - "legally binding instrument"
+
+  link_with_occupation:
+    - "foreign occupation"
+    - "development undermined"
+
+  link_with_sanctions:
+    - "sanctions undermine development"
+
+  procedural_support:
+    - "capacity building"
+    - "technical assistance"
+
+
+UPR:
+  strong_support:
+    - "upr cornerstone"
+    - "unique mechanism"
+    - "valuable peer review"
+
+  cooperative_engagement:
+    - "constructive dialogue"
+    - "implementation of recommendations"
+
+  concerns_about_participation:
+    - "lack of cooperation"
+    - "absence from upr"
+
+  criticism_of_politicization:
+    - "politicization of upr"
+    - "selective treatment"
+
+
+RACISM_AND_REPARATORY_JUSTICE:
+  legal_qualification:
+    - "systemic racism"
+    - "racial discrimination"
+
+  political_condemnation:
+    - "condemn racism"
+    - "denounce racial discrimination"
+
+  reparatory_justice:
+    - "reparatory justice"
+    - "reparations"
+
+  colonial_legacy:
+    - "colonial legacy"
+    - "colonialism"
+
+  law_enforcement_reform:
+    - "racial profiling"
+    - "law enforcement abuses"
+
+  denial_or_minimization:
+    - "isolated incidents"
+    - "no systemic issue"
+
+
+GENDER_AND_MINORITIES:
+  gender_equality_support:
+    - "gender equality"
+    - "women and girls"
+
+  lgbtq_rights_support:
+    - "lgbtq"
+    - "sexual minorities"
+
+  religious_freedom:
+    - "freedom of religion"
+
+  cultural_relativism:
+    - "national context"
+    - "cultural specificities"
+

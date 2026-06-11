@@ -1,0 +1,191 @@
+micro_analysis:
+
+  meta:
+    version: 1.3
+    description: "Micro analysis doctrine – deterministic & UI-governed"
+    scope: "entry-level analysis"
+    novelty_signal: false
+
+  # ==================================================
+  # TEXT PROCESSING
+  # ==================================================
+  text_processing:
+    normalization:
+      lowercase: true
+      collapse_spaces: true
+
+  # ==================================================
+  # TOPICS
+  # ==================================================
+  topics:
+    detection:
+      source: topic_position_registers.yaml
+
+    sensitivity:
+      enforced_signal_match:
+        - PALESTINE
+        - UKRAINE
+        - HONG_KONG_CHINA
+
+    central:
+      max_items: 1
+      selection_mode: order_of_detection
+
+    secondary:
+      max_items: 5
+
+  # ==================================================
+  # SIGNAL STRUCTURE
+  # ==================================================
+  signal_structure:
+    forms:
+      mixed:
+        requires: [";", ","]
+      enumeration:
+        requires: [";"]
+    default_form: single_statement
+
+    focus:
+      multiple:
+        trigger: ";"
+      default: single
+
+  # ==================================================
+  # DISCURSIVE GESTURE
+  # ==================================================
+  discursive_gestures:
+    priority:
+      - announcement
+      - appeal
+      - positioning
+      - reaffirmation
+    mapping:
+      announcement:
+        keywords: ["announce"]
+      appeal:
+        keywords: ["call", "urge", "request", "seek"]
+      positioning:
+        keywords: ["condemn", "oppose", "reject"]
+      reaffirmation:
+        keywords: ["reaffirm", "reiterate", "stress"]
+    default: statement
+
+  # ==================================================
+  # DIPLOMATIC POSTURE
+  # ==================================================
+  diplomatic_posture:
+    priority:
+      - assertive
+      - defensive
+      - cooperative
+      - passive
+    mapping:
+      assertive:
+        keywords:
+          - genocide
+          - crimes against humanity
+          - illegal occupation
+          - intimidation
+          - condemn
+          - aggression
+          - violation
+      defensive:
+        keywords:
+          - protect
+          - ensure
+          - defend
+      cooperative:
+        keywords:
+          - cooperation
+          - support
+          - appreciation
+          - inclusive
+          - constructive
+          - universality
+          - equal treatment
+          - dialogue
+    default: passive
+
+  # ==================================================
+  # EXPLICITNESS
+  # ==================================================
+  explicitness:
+    priority:
+      - high
+      - medium
+    mapping:
+      high:
+        keywords:
+          - genocide
+          - war crimes
+          - crimes against humanity
+      medium:
+        keywords:
+          - concern
+          - undermine
+    default: low
+
+  # ==================================================
+  # RISK
+  # ==================================================
+  risk:
+    priority:
+      - high
+      - medium
+    mapping:
+      high:
+        keywords:
+          - genocide
+          - illegal
+          - condemn
+      medium:
+        keywords:
+          - urge
+          - criticize
+    default: low
+
+  # ==================================================
+  # DIPLOMATIC ACTS
+  # ==================================================
+  diplomatic_acts:
+    enabled: true
+    acts:
+      announcement:
+        keywords: ["announce"]
+      candidacy:
+        keywords: ["candidacy", "candidate", "election"]
+      initiative_launch:
+        keywords:
+          - "launch an initiative"
+          - "establish an initiative"
+      invitation:
+        keywords: ["invite states"]
+      report_reference:
+        keywords:
+          - "report of"
+          - "special rapporteur"
+          - "commission of inquiry"
+      procedural_opening:
+        keywords:
+          - "agenda item"
+          - "bureau"
+          - "mandate"
+
+  # ==================================================
+  # WATCH FLAG (GOVERNED)
+  # ==================================================
+  watch_flag:
+    enabled: true
+    triggers:
+      explicitness:
+        - high
+      risk:
+        - high
+      posture:
+        - assertive
+      diplomatic_acts:
+        any: true
+      topics:
+        include:
+          - PALESTINE
+          - UKRAINE

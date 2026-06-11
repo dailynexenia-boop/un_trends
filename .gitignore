@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+config/_history/
+config/_snapshots/
+*.tmp
+*.tmp.*
+.streamlit/secrets.toml

@@ -1,0 +1,23 @@
+INITIATIVE_VERBS:
+  - establish
+  - launch
+  - create
+  - set up
+  - initiate
+  - propose
+  - introduce
+
+INITIATIVE_OBJECTS:
+  - observatory
+  - platform
+  - mechanism
+  - task force
+  - working group
+  - contact group
+  - initiative
+  - framework
+
+INVITATION_PHRASES:
+  - call upon states to join
+  - invite states to participate
+  - encourage states to join

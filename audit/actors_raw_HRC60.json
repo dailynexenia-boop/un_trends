@@ -1,0 +1,626 @@
+{
+  "total_entries": 318,
+  "unique_actors_count": 155,
+  "actors": [
+    {
+      "actor_raw": "Iran",
+      "count": 9
+    },
+    {
+      "actor_raw": "Armenia",
+      "count": 8
+    },
+    {
+      "actor_raw": "Venezuela",
+      "count": 8
+    },
+    {
+      "actor_raw": "Algeria",
+      "count": 7
+    },
+    {
+      "actor_raw": "Russia",
+      "count": 7
+    },
+    {
+      "actor_raw": "China",
+      "count": 7
+    },
+    {
+      "actor_raw": "Cuba",
+      "count": 7
+    },
+    {
+      "actor_raw": "Iraq",
+      "count": 6
+    },
+    {
+      "actor_raw": "Egypt",
+      "count": 6
+    },
+    {
+      "actor_raw": "Sudan",
+      "count": 6
+    },
+    {
+      "actor_raw": "",
+      "count": 6
+    },
+    {
+      "actor_raw": "Afghanistan",
+      "count": 5
+    },
+    {
+      "actor_raw": "Tunisia",
+      "count": 5
+    },
+    {
+      "actor_raw": "Pakistan",
+      "count": 5
+    },
+    {
+      "actor_raw": "Azerbaidjan",
+      "count": 4
+    },
+    {
+      "actor_raw": "Maldives",
+      "count": 4
+    },
+    {
+      "actor_raw": "Sierra Leone",
+      "count": 4
+    },
+    {
+      "actor_raw": "Ghana",
+      "count": 4
+    },
+    {
+      "actor_raw": "Indonesia",
+      "count": 4
+    },
+    {
+      "actor_raw": "Bolivia",
+      "count": 4
+    },
+    {
+      "actor_raw": "Colombia",
+      "count": 4
+    },
+    {
+      "actor_raw": "Maleysia",
+      "count": 4
+    },
+    {
+      "actor_raw": "Nepal",
+      "count": 3
+    },
+    {
+      "actor_raw": "Belarus",
+      "count": 3
+    },
+    {
+      "actor_raw": "India",
+      "count": 3
+    },
+    {
+      "actor_raw": "Jordan",
+      "count": 3
+    },
+    {
+      "actor_raw": "Uganda",
+      "count": 3
+    },
+    {
+      "actor_raw": "Republique of Korea",
+      "count": 3
+    },
+    {
+      "actor_raw": "Turkyie",
+      "count": 3
+    },
+    {
+      "actor_raw": "Ethiopia",
+      "count": 3
+    },
+    {
+      "actor_raw": "Malawi",
+      "count": 3
+    },
+    {
+      "actor_raw": "Erythree",
+      "count": 3
+    },
+    {
+      "actor_raw": "EU",
+      "count": 3
+    },
+    {
+      "actor_raw": "Bengladesh",
+      "count": 3
+    },
+    {
+      "actor_raw": "Kirghiztan",
+      "count": 3
+    },
+    {
+      "actor_raw": "Group of Friends, Venezuela",
+      "count": 3
+    },
+    {
+      "actor_raw": "Brazil",
+      "count": 3
+    },
+    {
+      "actor_raw": "Libya",
+      "count": 3
+    },
+    {
+      "actor_raw": "Panelist",
+      "count": 3
+    },
+    {
+      "actor_raw": "UAE",
+      "count": 2
+    },
+    {
+      "actor_raw": "Cyprus",
+      "count": 2
+    },
+    {
+      "actor_raw": "Lithuania",
+      "count": 2
+    },
+    {
+      "actor_raw": "NAM, Uganda",
+      "count": 2
+    },
+    {
+      "actor_raw": "France",
+      "count": 2
+    },
+    {
+      "actor_raw": "Georgia",
+      "count": 2
+    },
+    {
+      "actor_raw": "Japan",
+      "count": 2
+    },
+    {
+      "actor_raw": "Qatar",
+      "count": 2
+    },
+    {
+      "actor_raw": "Belgium",
+      "count": 2
+    },
+    {
+      "actor_raw": "Norway",
+      "count": 2
+    },
+    {
+      "actor_raw": "UK",
+      "count": 2
+    },
+    {
+      "actor_raw": "Slovenia",
+      "count": 2
+    },
+    {
+      "actor_raw": "GANRHI",
+      "count": 2
+    },
+    {
+      "actor_raw": "Vietnam",
+      "count": 2
+    },
+    {
+      "actor_raw": "Uruguay",
+      "count": 2
+    },
+    {
+      "actor_raw": "Kenya",
+      "count": 2
+    },
+    {
+      "actor_raw": "South Africa",
+      "count": 2
+    },
+    {
+      "actor_raw": "Cameroun",
+      "count": 2
+    },
+    {
+      "actor_raw": "Equador",
+      "count": 2
+    },
+    {
+      "actor_raw": "Togo",
+      "count": 2
+    },
+    {
+      "actor_raw": "Senegal",
+      "count": 2
+    },
+    {
+      "actor_raw": "Phillipines",
+      "count": 2
+    },
+    {
+      "actor_raw": "SR Unilateral Coercive Measure",
+      "count": 2
+    },
+    {
+      "actor_raw": "Dominican Republic",
+      "count": 2
+    },
+    {
+      "actor_raw": "State of Palestine",
+      "count": 2
+    },
+    {
+      "actor_raw": "AFG, Ghana",
+      "count": 2
+    },
+    {
+      "actor_raw": "Bahrein",
+      "count": 2
+    },
+    {
+      "actor_raw": "Ukraine",
+      "count": 1
+    },
+    {
+      "actor_raw": "Maleysia, NAM",
+      "count": 1
+    },
+    {
+      "actor_raw": "ONU Sida",
+      "count": 1
+    },
+    {
+      "actor_raw": "APG, Bahrein",
+      "count": 1
+    },
+    {
+      "actor_raw": "Nigeria",
+      "count": 1
+    },
+    {
+      "actor_raw": "Serbia",
+      "count": 1
+    },
+    {
+      "actor_raw": "PM Switzerland, PR Albania",
+      "count": 1
+    },
+    {
+      "actor_raw": "NGO Trial Int., UNWG on Mercenaries",
+      "count": 1
+    },
+    {
+      "actor_raw": "Thailande",
+      "count": 1
+    },
+    {
+      "actor_raw": "GRULAC, Venezuela",
+      "count": 1
+    },
+    {
+      "actor_raw": "LMDC, Venezuela",
+      "count": 1
+    },
+    {
+      "actor_raw": "Suisse, Swiss",
+      "count": 1
+    },
+    {
+      "actor_raw": "Czech, EU",
+      "count": 1
+    },
+    {
+      "actor_raw": "Pays-Bas",
+      "count": 1
+    },
+    {
+      "actor_raw": "Allemagne",
+      "count": 1
+    },
+    {
+      "actor_raw": "Sweden",
+      "count": 1
+    },
+    {
+      "actor_raw": "Finlande",
+      "count": 1
+    },
+    {
+      "actor_raw": "EU, Ireland",
+      "count": 1
+    },
+    {
+      "actor_raw": "Austria, EU",
+      "count": 1
+    },
+    {
+      "actor_raw": "Canada",
+      "count": 1
+    },
+    {
+      "actor_raw": "Australia",
+      "count": 1
+    },
+    {
+      "actor_raw": "EU, Estonia",
+      "count": 1
+    },
+    {
+      "actor_raw": "Danemark, EU",
+      "count": 1
+    },
+    {
+      "actor_raw": "Central Africa",
+      "count": 1
+    },
+    {
+      "actor_raw": "Michael Camilleri",
+      "count": 1
+    },
+    {
+      "actor_raw": "Clément Voule",
+      "count": 1
+    },
+    {
+      "actor_raw": "Thyagi Runawanpathrana",
+      "count": 1
+    },
+    {
+      "actor_raw": "SG",
+      "count": 1
+    },
+    {
+      "actor_raw": "Fiji, Ghana, Hungary, Ireland, Uruguay",
+      "count": 1
+    },
+    {
+      "actor_raw": "Australia, Canada, New Zeland",
+      "count": 1
+    },
+    {
+      "actor_raw": "Austria, Lishtenstein, Slovenia, Suisse",
+      "count": 1
+    },
+    {
+      "actor_raw": "NAM, Venezuela",
+      "count": 1
+    },
+    {
+      "actor_raw": "Belgium, Luxemburg, Netherland",
+      "count": 1
+    },
+    {
+      "actor_raw": "Lishtenstein",
+      "count": 1
+    },
+    {
+      "actor_raw": "Danemark",
+      "count": 1
+    },
+    {
+      "actor_raw": "Mauritania",
+      "count": 1
+    },
+    {
+      "actor_raw": "Burkina Faso",
+      "count": 1
+    },
+    {
+      "actor_raw": "Czech",
+      "count": 1
+    },
+    {
+      "actor_raw": "Palestine",
+      "count": 1
+    },
+    {
+      "actor_raw": "EU, Poland",
+      "count": 1
+    },
+    {
+      "actor_raw": "EU, Germany",
+      "count": 1
+    },
+    {
+      "actor_raw": "Armenia, Dominica",
+      "count": 1
+    },
+    {
+      "actor_raw": "President of HRC",
+      "count": 1
+    },
+    {
+      "actor_raw": "Maleysia, Timo-Leste",
+      "count": 1
+    },
+    {
+      "actor_raw": "Armenia, Fidji, Norway, Pakistan",
+      "count": 1
+    },
+    {
+      "actor_raw": "Costa Rica",
+      "count": 1
+    },
+    {
+      "actor_raw": "Gambia",
+      "count": 1
+    },
+    {
+      "actor_raw": "Yemen",
+      "count": 1
+    },
+    {
+      "actor_raw": "Algeria, Arab Group",
+      "count": 1
+    },
+    {
+      "actor_raw": "Colombia, Hague Group",
+      "count": 1
+    },
+    {
+      "actor_raw": "Mexico",
+      "count": 1
+    },
+    {
+      "actor_raw": "Chili",
+      "count": 1
+    },
+    {
+      "actor_raw": "Spain",
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Gambia",
+      "count": 1
+    },
+    {
+      "actor_raw": "Morocco",
+      "count": 1
+    },
+    {
+      "actor_raw": "Island",
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Yemen",
+      "count": 1
+    },
+    {
+      "actor_raw": "Saudi Arabia",
+      "count": 1
+    },
+    {
+      "actor_raw": "Sovereign Order of Malta",
+      "count": 1
+    },
+    {
+      "actor_raw": "Luxemburg",
+      "count": 1
+    },
+    {
+      "actor_raw": "Ireland",
+      "count": 1
+    },
+    {
+      "actor_raw": "Perou",
+      "count": 1
+    },
+    {
+      "actor_raw": "Brunei",
+      "count": 1
+    },
+    {
+      "actor_raw": "Djibouti",
+      "count": 1
+    },
+    {
+      "actor_raw": "Oman",
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Senegal",
+      "count": 1
+    },
+    {
+      "actor_raw": "Lebanon",
+      "count": 1
+    },
+    {
+      "actor_raw": "Colombia, Hague Group, Honduras",
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Mauritania",
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Nigeria",
+      "count": 1
+    },
+    {
+      "actor_raw": "Like Minded Group, Sudan",
+      "count": 1
+    },
+    {
+      "actor_raw": "Suede",
+      "count": 1
+    },
+    {
+      "actor_raw": "EU, Lithuania",
+      "count": 1
+    },
+    {
+      "actor_raw": "Jamaica",
+      "count": 1
+    },
+    {
+      "actor_raw": "Kuweit",
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Gambia, Ghana",
+      "count": 1
+    },
+    {
+      "actor_raw": "UNICEF",
+      "count": 1
+    },
+    {
+      "actor_raw": "Paraguay",
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Ethiopia",
+      "count": 1
+    },
+    {
+      "actor_raw": "Alena Douhan SR on UCMs",
+      "count": 1
+    },
+    {
+      "actor_raw": "Iran, Nassi Sergi Secretary of The High Council of HR Iran",
+      "count": 1
+    },
+    {
+      "actor_raw": "Zimbabwe",
+      "count": 1
+    },
+    {
+      "actor_raw": "Mozambique",
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Malawi",
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, South Africa",
+      "count": 1
+    },
+    {
+      "actor_raw": "Cambodgia",
+      "count": 1
+    },
+    {
+      "actor_raw": "AFG, Tchad",
+      "count": 1
+    },
+    {
+      "actor_raw": "Irak",
+      "count": 1
+    },
+    {
+      "actor_raw": "EU, Lithuania, Lublin Triangle",
+      "count": 1
+    }
+  ]
+}

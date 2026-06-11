@@ -1,0 +1,419 @@
+Afghanistan:
+  aliases: []
+  regional_group: APG
+
+Algeria:
+  aliases: []
+  regional_group: AFG
+
+Armenia:
+  aliases: []
+  regional_group: EEG
+
+Australia:
+  aliases: []
+  regional_group: WOEG
+
+Austria:
+  aliases: []
+  regional_group: WOEG
+
+Azerbaijan:
+  aliases: ["Azerbaidjan"]
+  regional_group: EEG
+
+Bahrain:
+  aliases: ["Bahrein"]
+  regional_group: APG
+
+Bangladesh:
+  aliases: ["Bengladesh"]
+  regional_group: APG
+
+Belarus:
+  aliases: []
+  regional_group: EEG
+
+Belgium:
+  aliases: []
+  regional_group: WOEG
+
+Bolivia:
+  aliases: []
+  regional_group: GRULAC
+
+Brazil:
+  aliases: []
+  regional_group: GRULAC
+
+Brunei:
+  aliases: []
+  regional_group: APG
+
+Burkina Faso:
+  aliases: []
+  regional_group: AFG
+
+Cambodia:
+  aliases: ["Cambodgia"]
+  regional_group: APG
+
+Cameroon:
+  aliases: ["Cameroun"]
+  regional_group: AFG
+
+Canada:
+  aliases: []
+  regional_group: WOEG
+
+Central African Republic:
+  aliases: ["Central Africa"]
+  regional_group: AFG
+
+Chad:
+  aliases: ["Tchad"]
+  regional_group: AFG
+
+Chile:
+  aliases: ["Chili"]
+  regional_group: GRULAC
+
+China:
+  aliases: []
+  regional_group: APG
+
+Colombia:
+  aliases: []
+  regional_group: GRULAC
+
+Costa Rica:
+  aliases: []
+  regional_group: GRULAC
+
+Cuba:
+  aliases: []
+  regional_group: GRULAC
+
+Cyprus:
+  aliases: []
+  regional_group: WOEG
+
+Czechia:
+  aliases: ["Czech"]
+  regional_group: EEG
+
+Denmark:
+  aliases: ["Danemark"]
+  regional_group: WOEG
+
+Djibouti:
+  aliases: []
+  regional_group: AFG
+
+Dominican Republic:
+  aliases: []
+  regional_group: GRULAC
+
+Ecuador:
+  aliases: ["Equador"]
+  regional_group: GRULAC
+
+Egypt:
+  aliases: []
+  regional_group: AFG
+
+Eritrea:
+  aliases: ["Erythree"]
+  regional_group: AFG
+
+Estonia:
+  aliases: []
+  regional_group: EEG
+
+Ethiopia:
+  aliases: []
+  regional_group: AFG
+
+Fiji:
+  aliases: ["Fidji"]
+  regional_group: APG
+
+Finland:
+  aliases: ["Finlande"]
+  regional_group: WOEG
+
+France:
+  aliases: []
+  regional_group: WOEG
+
+Gambia:
+  aliases: []
+  regional_group: AFG
+
+Georgia:
+  aliases: []
+  regional_group: EEG
+
+Germany:
+  aliases: ["Allemagne"]
+  regional_group: WOEG
+
+Ghana:
+  aliases: []
+  regional_group: AFG
+
+Iceland:
+  aliases: ["Island"]
+  regional_group: WOEG
+
+India:
+  aliases: []
+  regional_group: APG
+
+Indonesia:
+  aliases: []
+  regional_group: APG
+
+Iran:
+  aliases: []
+  regional_group: APG
+
+Iraq:
+  aliases: ["Irak"]
+  regional_group: APG
+
+Ireland:
+  aliases: []
+  regional_group: WOEG
+
+Jamaica:
+  aliases: []
+  regional_group: GRULAC
+
+Japan:
+  aliases: []
+  regional_group: APG
+
+Jordan:
+  aliases: []
+  regional_group: APG
+
+Kenya:
+  aliases: []
+  regional_group: AFG
+
+Kuwait:
+  aliases: ["Kuweit"]
+  regional_group: APG
+
+Kyrgyzstan:
+  aliases: ["Kirghiztan"]
+  regional_group: APG
+
+Lebanon:
+  aliases: []
+  regional_group: APG
+
+Libya:
+  aliases: []
+  regional_group: AFG
+
+Liechtenstein:
+  aliases: ["Lishtenstein"]
+  regional_group: WOEG
+
+Lithuania:
+  aliases: []
+  regional_group: EEG
+
+Luxembourg:
+  aliases: ["Luxemburg"]
+  regional_group: WOEG
+
+Malaysia:
+  aliases: ["Maleysia"]
+  regional_group: APG
+
+Malawi:
+  aliases: []
+  regional_group: AFG
+
+Maldives:
+  aliases: []
+  regional_group: APG
+
+Mauritania:
+  aliases: []
+  regional_group: AFG
+
+Mexico:
+  aliases: []
+  regional_group: GRULAC
+
+Morocco:
+  aliases: []
+  regional_group: AFG
+
+Mozambique:
+  aliases: []
+  regional_group: AFG
+
+Nepal:
+  aliases: []
+  regional_group: APG
+
+Netherlands:
+  aliases: ["Pays-Bas", "Netherland"]
+  regional_group: WOEG
+
+Nigeria:
+  aliases: []
+  regional_group: AFG
+
+Norway:
+  aliases: []
+  regional_group: WOEG
+
+Oman:
+  aliases: []
+  regional_group: APG
+
+Pakistan:
+  aliases: []
+  regional_group: APG
+
+Paraguay:
+  aliases: []
+  regional_group: GRULAC
+
+Peru:
+  aliases: ["Perou"]
+  regional_group: GRULAC
+
+Philippines:
+  aliases: ["Phillipines"]
+  regional_group: APG
+
+Poland:
+  aliases: []
+  regional_group: EEG
+
+Qatar:
+  aliases: []
+  regional_group: APG
+
+Republic of Korea:
+  aliases: ["Republique of Korea"]
+  regional_group: APG
+
+Russia:
+  aliases: []
+  regional_group: EEG
+
+Saudi Arabia:
+  aliases: []
+  regional_group: APG
+
+Senegal:
+  aliases: []
+  regional_group: AFG
+
+Serbia:
+  aliases: []
+  regional_group: EEG
+
+Sierra Leone:
+  aliases: []
+  regional_group: AFG
+
+Slovenia:
+  aliases: []
+  regional_group: EEG
+
+South Africa:
+  aliases: []
+  regional_group: AFG
+
+Spain:
+  aliases: []
+  regional_group: WOEG
+
+State of Palestine:
+  aliases: ["Palestine"]
+  regional_group: APG
+
+Sudan:
+  aliases: []
+  regional_group: AFG
+
+Sweden:
+  aliases: ["Suede"]
+  regional_group: WOEG
+
+Switzerland:
+  aliases: ["Suisse", "Swiss", "PM Switzerland"]
+  regional_group: WOEG
+
+Thailand:
+  aliases: ["Thailande"]
+  regional_group: APG
+
+Togo:
+  aliases: []
+  regional_group: AFG
+
+Tunisia:
+  aliases: []
+  regional_group: AFG
+
+Türkiye:
+  aliases: ["Turkyie"]
+  regional_group: WOEG
+
+Ukraine:
+  aliases: []
+  regional_group: EEG
+
+Uganda:
+  aliases: []
+  regional_group: AFG
+
+United Arab Emirates:
+  aliases: ["UAE"]
+  regional_group: APG
+
+United Kingdom:
+  aliases: ["UK"]
+  regional_group: WOEG
+
+Uruguay:
+  aliases: []
+  regional_group: GRULAC
+
+Venezuela:
+  aliases: []
+  regional_group: GRULAC
+
+Vietnam:
+  aliases: []
+  regional_group: APG
+
+Yemen:
+  aliases: []
+  regional_group: AFG
+
+Zimbabwe:
+  aliases: []
+  regional_group: AFG
+
+Lebanon:
+  aliases: []
+  regional_group: APG
+
+Cameroon:
+  aliases: ["Cameroun"]
+  regional_group: AFG
+
+Dominica:
+  aliases: []
+  regional_group: GRULAC

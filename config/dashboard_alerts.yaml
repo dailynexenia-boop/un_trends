@@ -1,0 +1,22 @@
+alerts:
+  # spike = nb entries (last N days) / moyenne quotidienne des M jours précédents
+  spike_window_days: 2
+  baseline_days: 14
+  spike_multiplier: 1.8
+
+  # high-risk burst
+  high_risk_window_days: 3
+  high_risk_min_count: 5
+
+  # watch flags burst
+  watch_window_days: 3
+  watch_min_count: 6
+
+  # actor repetition in high risk
+  actor_repeat_window_days: 7
+  actor_repeat_high_risk_min: 3
+
+  # block5 session alerts
+  spillover_risk_triggers: ["high"]
+  fragmentation_triggers: ["high"]
+  bridge_potential_bad: ["low"]

@@ -1,0 +1,398 @@
+block4:
+  keyword_aggregations:
+    palestine: '{''label'': ''Palestine / OPT'', ''members'': [''palestine'', ''palestinian
+      people'', ''west bank'', ''gaza'']}'
+    sanctions: '{''label'': ''Sanctions / UCM'', ''members'': [''sanctions'', ''unilateral
+      sanctions'', ''ucm'', ''economic sanctions'']}'
+  limits:
+    top_subjects: 20.0
+    top_angles: 5.0
+    top_countries: 5.0
+block4_1:
+  subjects:
+    palestinian_people:
+      label: Palestinian people
+      description: 'Strategic analysis of references to the Palestinian population,
+        focusing on humanitarian impact, legal framing, and political positioning
+        across UN fora.
+
+        '
+      members:
+      - palestinian people
+      - palestinians
+      - population of gaza
+      - civilians in gaza
+      - protected persons
+      - civilian population
+    unilateral_measures:
+      label: Unilateral measures
+      description: 'Strategic framing of unilateral sanctions, countermeasures, and
+        their legality, proportionality, and humanitarian effects.
+
+        '
+      members:
+      - unilateral measure
+      - unilateral measures
+      - sanctions
+      - countermeasures
+      - restrictive measures
+      - economic sanctions
+    humanitarian_access:
+      label: Humanitarian access
+      description: 'Analysis of constraints, facilitation, and politicisation of humanitarian
+        access, including corridors, exemptions, and delivery mechanisms.
+
+        '
+      members:
+      - humanitarian access
+      - humanitarian corridor
+      - humanitarian aid
+      - relief operations
+      - aid delivery
+      - humanitarian exemption
+    accountability_international_law:
+      label: Accountability under international law
+      description: 'Strategic use of international legal accountability mechanisms,
+        including courts, investigations, and attribution of responsibility.
+
+        '
+      members:
+      - accountability
+      - international law
+      - international humanitarian law
+      - icc
+      - court
+      - jurisdiction
+      - investigation
+      - responsibility
+    private_actors_compliance:
+      label: Private actors & compliance
+      description: 'Strategic positioning of private actors (companies, banks, insurers)
+        in relation to sanctions compliance, overcompliance, and due diligence.
+
+        '
+      members:
+      - private sector
+      - companies
+      - banks
+      - insurers
+      - supply chain
+      - overcompliance
+      - de-risking
+      - due diligence
+  registers:
+    human_impact:
+    - impact
+    - affect
+    - consequence
+    - harm
+    - population
+    - women
+    - children
+    - health
+    - food
+    - medicine
+    legal_normative:
+    - international law
+    - unlawful
+    - charter
+    - violation
+    - sovereignty
+    - obligation
+    - responsibility
+    institutional_multilateral:
+    - united nations
+    - human rights council
+    - security council
+    - general assembly
+    - multilateral
+    - treaty bodies
+    development_structural:
+    - development
+    - sdg
+    - right to development
+    - structural
+    - capacity building
+    economic_private:
+    - business
+    - banks
+    - trade
+    - supply chain
+    - financial institutions
+    governance_procedural:
+    - monitoring
+    - reporting
+    - indicators
+    - transparency
+    - review mechanism
+    accusatory_conflictual:
+    - genocide
+    - crime against humanity
+    - aggression
+    - ethnic cleansing
+    - apartheid
+    defensive_justificatory:
+    - legitimate
+    - proportional
+    - last resort
+    - targeted
+    - necessity
+  political_cost:
+    high:
+    - \bgenocide\b
+    - \bcrime(s)? against humanity\b
+    - \baggression\b
+    - \bethnic cleansing\b
+    - \bregime change\b
+    medium:
+    - \bpalestin(e|ian)\b
+    - \bgaza\b
+    - \bsettlement(s)?\b
+    - \bsanction(s)?\b
+    low:
+    - monitoring
+    - reporting
+    - humanitarian
+    - exemption
+    - banks
+    - compliance
+    - court
+    - due diligence
+  entry_point_buckets:
+    overcompliance:
+    - overcompliance
+    - de-risking
+    - banks
+    - account closure
+    humanitarian_exemptions:
+    - humanitarian exemption
+    - licenses
+    - aid
+    - relief
+    private_actors_supply_chains:
+    - companies
+    - insurers
+    - supply chain
+    - trade
+    monitoring_data_tools:
+    - monitoring
+    - data
+    - indicators
+    - reporting
+    access_to_justice:
+    - court
+    - arbitration
+    - jurisdiction
+    - accountability
+    compliance_pathways:
+    - mitigation
+    - due diligence
+    - review
+    - proportional
+    - compliance
+  preferred_entry_point_order:
+  - overcompliance
+  - humanitarian_exemptions
+  - private_actors_supply_chains
+  - monitoring_data_tools
+  - access_to_justice
+  - compliance_pathways
+  thresholds:
+    institutionalised:
+      min_entries: 20
+      min_countries: 15
+    bridge_score:
+      posture_weights:
+        normative: 2
+        exploratory: 2
+        defensive: 1
+        accusatory: -2
+      topic_count_bonus: 1
+block4_2:
+  argument_sets:
+    unilateral_measures:
+      description: 'Legal and normative arguments commonly mobilised in relation to
+        unilateral coercive measures (UCM).
+
+        '
+      arguments:
+        illegality_under_international_law:
+          label: Illegality under international law
+          category: legal
+        violation_of_un_charter:
+          label: Violation of the UN Charter
+          category: legal
+        violation_of_sovereignty:
+          label: Violation of state sovereignty
+          category: legal
+        humanitarian_impact:
+          label: Humanitarian impact on civilian populations
+          category: human_rights
+        collective_punishment:
+          label: Collective punishment
+          category: humanitarian_law
+        extraterritorial_application:
+          label: Unlawful extraterritorial application of domestic law
+          category: legal
+        discrimination_and_selectivity:
+          label: Discriminatory or selective application of measures
+          category: political
+    palestine:
+      description: 'Core argumentative frames mobilised in relation to Palestine /
+        Occupied Palestinian Territory.
+
+        '
+      arguments:
+        right_to_self_determination:
+          label: Right to self-determination
+          category: international_law
+        occupation_and_annexation:
+          label: Occupation, annexation, and territorial integrity
+          category: international_law
+        collective_punishment:
+          label: Collective punishment of civilian population
+          category: humanitarian_law
+        genocide_and_atrocity_crimes:
+          label: Genocide or other atrocity crimes
+          category: international_criminal_law
+        humanitarian_access:
+          label: Humanitarian access and protection of civilians
+          category: humanitarian_law
+        accountability_and_impunity:
+          label: Accountability, impunity, and international justice
+          category: international_criminal_law
+  resonance_thresholds:
+    high_resonance:
+      min_hits: 30
+    emerging:
+      min_hits: 8
+      max_hits: 29
+    marginal:
+      exact_hits: 1
+  projection_policy:
+    instruction: 'You analyze UN Human Rights Council statements. For the text below,
+      return ONLY a JSON list of argument keys chosen strictly from the provided list.
+
+      '
+    strict_mode: true
+    output_format: json_list
+block2:
+  taxonomies:
+    diplomatic_postures:
+    - procedural
+    - passive
+    - cooperative
+    - assertive
+    discursive_gestures:
+    - statement
+    - appeal
+    - positioning
+    - reaffirmation
+    - announcement
+    explicitness_levels:
+    - low
+    - medium
+    - high
+  thresholds:
+    volatility:
+      low: 0.7
+      medium: 0.45
+    risk_tolerance:
+      high: 0.25
+      medium: 0.1
+    diversity:
+      low: 1
+      medium: 3
+  rules:
+    profile_scope: country
+    ignore_speakers:
+    - unknown
+    coalition_detection: '{''field'': ''speaker_structure.coalition.is_coalition''}'
+  output:
+    activity:
+      fields:
+      - interventions_count
+      - solo_interventions
+      - coalition_interventions
+    posture:
+      fields:
+      - dominant
+      - distribution
+      - volatility
+    topics:
+      fields:
+      - central
+      - secondary
+      - diversity
+    narrative_style:
+      fields:
+      - discursive_gestures
+      - explicitness_levels
+    risk_profile:
+      fields:
+      - high_risk_interventions
+      - novelty_signals
+      - risk_tolerance
+    diplomatic_behavior:
+      fields:
+      - announcements
+      - candidacies
+      - initiative_launches
+      - invitations
+      - report_references
+      - procedural_openings
+    political_alignments:
+      fields:
+      - invoked
+block2_5:
+  posture_order:
+  - procedural
+  - passive
+  - cooperative
+  - assertive
+  thresholds:
+    contextual_signal:
+      min_high: 1
+      min_total: 2
+  rules:
+    ignore_speakers:
+    - unknown
+block3:
+  thresholds:
+    regional_concern_ratio: 0.3
+    leaders_count: 3
+    min_activity: 2
+    posture_deviation_distance: 2
+  rules:
+    ignore_missing_region: true
+block5:
+  matching:
+    match_on: conference
+    normalize: true
+  fragmentation:
+    medium:
+      min_actors: 10
+      min_alignment_groups: 4
+    high:
+      min_actors: 20
+      min_alignment_groups: 6
+  institutional_density:
+    medium_threshold: 0.4
+    high_threshold: 0.6
+  spillover_risk:
+    medium_min_high_risk: 5
+    high_min_high_risk: 10
+  bridge_potential:
+    low_if:
+      fragmentation: high
+      institutional_density: low
+    high_if:
+      fragmentation: low
+      institutional_density: high
+  agenda_drivers:
+    max_items: 5
+  topic_weights:
+    central: 3
+    secondary: 1
+  ui:
+    schema_version: block5.canonical.v2
