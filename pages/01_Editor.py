@@ -88,6 +88,7 @@ def push_to_github(entry_id: str) -> tuple[bool, str]:
     cmds = [
         ["git", "add", "canonical/canonical.jsonl", "raw/"],
         ["git", "commit", "--allow-empty", "-m", f"Entry {entry_id}"],
+        ["git", "pull", "--rebase", remote, "main"],
         ["git", "push", remote, "main"],
     ]
     for cmd in cmds:
