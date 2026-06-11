@@ -64,12 +64,14 @@ def append_raw_csv(path: Path, row: dict):
 
 def push_to_github(entry_id: str) -> tuple[bool, str]:
     """
+    Pushes canonical.jsonl to GitHub via the Contents API (no git subprocess).
     Returns (pushed, message).
     pushed=False + message="" means no token (local mode).
     pushed=False + message=str means error.
     pushed=True means success.
     """
-    import subprocess
+    import base64, json, urllib.request, urllib.error
+
     token = None
     try:
         token = st.secrets.get("GITHUB_TOKEN")
@@ -78,28 +80,45 @@ def push_to_github(entry_id: str) -> tuple[bool, str]:
     if not token:
         return False, ""
 
-    remote = f"https://x-access-token:{token}@github.com/dailynexenia-boop/un_trends.git"
-    cwd = str(PROJECT_ROOT)
+    canonical_path = PROJECT_ROOT / "canonical" / "canonical.jsonl"
+    try:
+        raw = canonical_path.read_bytes()
+    except Exception as e:
+        return False, f"read: {e}"
 
-    # Set git identity (required on Streamlit Cloud where global config is absent)
-    subprocess.run(["git", "config", "user.email", "streamlit-cloud@un-trends"], cwd=cwd, capture_output=True)
-    subprocess.run(["git", "config", "user.name", "Streamlit Cloud"], cwd=cwd, capture_output=True)
+    api = "https://api.github.com/repos/dailynexenia-boop/un_trends/contents/canonical/canonical.jsonl"
+    headers = {
+        "Authorization": f"token {token}",
+        "Content-Type": "application/json",
+        "Accept": "application/vnd.github+json",
+    }
 
-    cmds = [
-        ["git", "add", "canonical/canonical.jsonl", "raw/"],
-        ["git", "commit", "--allow-empty", "-m", f"Entry {entry_id}"],
-        ["git", "pull", "--rebase", remote, "main"],
-        ["git", "push", remote, "main"],
-    ]
-    for cmd in cmds:
-        p = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True)
-        out = ((p.stdout or "") + (p.stderr or "")).strip()
-        if p.returncode != 0:
-            # "nothing to commit" is not a real error — keep going
-            if cmd[1] == "commit" and "nothing to commit" in out:
-                continue
-            return False, f"{cmd[1]}: {out[:300]}"
-    return True, ""
+    # Get current SHA (required by GitHub API to update an existing file)
+    req = urllib.request.Request(api, headers=headers)
+    try:
+        with urllib.request.urlopen(req) as resp:
+            sha = json.loads(resp.read())["sha"]
+    except urllib.error.HTTPError as e:
+        return False, f"GET sha: {e.code} {e.reason}"
+    except Exception as e:
+        return False, f"GET sha: {e}"
+
+    # PUT updated content
+    payload = json.dumps({
+        "message": f"Entry {entry_id}",
+        "content": base64.b64encode(raw).decode(),
+        "sha": sha,
+        "branch": "main",
+    }).encode()
+    req = urllib.request.Request(api, data=payload, headers=headers, method="PUT")
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return True, ""
+    except urllib.error.HTTPError as e:
+        body = e.read().decode()[:200]
+        return False, f"PUT {e.code}: {body}"
+    except Exception as e:
+        return False, f"PUT: {e}"
 
 # ==================================================
 # UI
