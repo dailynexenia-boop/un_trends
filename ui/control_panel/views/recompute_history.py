@@ -148,6 +148,22 @@ def render(
             )
 
     # -----------------------------------------------------
+    # PULL FROM GITHUB (sync local from cloud entries)
+    # -----------------------------------------------------
+    st.divider()
+    st.markdown("### Pull from GitHub")
+    st.caption("Récupère les entrées saisies depuis la tablette en session. À faire avant de travailler en local après une session.")
+
+    if st.button("⬇️ Pull from GitHub"):
+        code, out = run_cmd(project_root, ["git", "pull"])
+        if code == 0:
+            st.success("Local is up to date with GitHub.")
+            if out.strip():
+                st.caption(out.strip()[:300])
+        else:
+            st.error(f"Pull failed: {out.strip()[:300]}")
+
+    # -----------------------------------------------------
     # SYNC TO GITHUB (push canonical + config)
     # -----------------------------------------------------
     st.divider()
